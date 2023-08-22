@@ -40,7 +40,7 @@ function checkAnswer(currentLevel) {
   } else {
 
     console.log("wrong");
-    playSound("sounds/wrong.mp3")
+    playSound("wrong")
 
     $("body").addClass("game-over");
     setTimeout(function () {
